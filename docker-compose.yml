@@ -5,6 +5,7 @@ services:
     container_name: spark-node
     ports:
       - "8888:8888"
+      - "4040:4040"
     volumes:
       - .:/home/jovyan/
   elasticsearch:
